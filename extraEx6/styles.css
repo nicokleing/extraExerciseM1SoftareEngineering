@@ -1,0 +1,58 @@
+/* Body styling */
+body {
+    /* Set font family */
+    font-family: Arial, sans-serif;
+    /* Remove default margin and padding */
+    margin: 0;
+    padding: 0;
+    /* Set background color */
+    background-color: #f4f4f4; /* Light gray */
+    /* Center content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Set height to 100% of the viewport */
+    height: 100vh;
+}
+
+/* Container for the table */
+.table-container {
+    /* Allow horizontal scrolling if the table overflows */
+    overflow: auto;
+}
+
+/* Table styling */
+table {
+    /* Collapse borders between cells */
+    border-collapse: collapse;
+    /* Add border around the table */
+    border: 1px solid black;
+    /* Add margin around the table */
+    margin: 10px;
+}
+
+/* Styling for table header */
+thead th {
+    /* Set background color */
+    background-color: green;
+    /* Set text color */
+    color: white;
+    /* Add padding */
+    padding: 10px;
+}
+
+/* Styling for table body cells */
+tbody td {
+    /* Center text horizontally */
+    text-align: center;
+    /* Add padding */
+    padding: 10px;
+    /* Add border around cells */
+    border: 1px solid black;
+}
+
+/* Styling for even rows in the table body */
+tbody tr:nth-child(even) {
+    /* Set background color for even rows */
+    background-color: red;
+}

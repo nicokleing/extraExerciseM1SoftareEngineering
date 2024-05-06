@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the page -->
+    <title>Guess the Number Game</title>
+    
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Container for the game -->
+    <div class="container">
+        <!-- Game title -->
+        <h1>Guess the Number Game</h1>
+        
+        <!-- Input field for user to enter their guess -->
+        <input type="number" id="userInput" min="1" max="10">
+        
+        <!-- Button to submit the guess -->
+        <button onclick="checkNumber()">Guess!</button>
+        
+        <!-- Container to display the result/message -->
+        <div class="message" id="resultMessage"></div>
+    </div>
+</body>
+</html>

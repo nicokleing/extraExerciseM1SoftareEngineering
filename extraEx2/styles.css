@@ -1,0 +1,73 @@
+/* Body styling */
+body {
+    /* Set font family */
+    font-family: Arial, sans-serif;
+    /* Center content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Set height to 100% of the viewport */
+    height: 100vh;
+    /* Remove default margin */
+    margin: 0;
+}
+
+/* Calculator container styling */
+.calculator {
+    /* Center text */
+    text-align: center;
+    /* Add box shadow for a subtle elevation effect */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    /* Add padding */
+    padding: 20px;
+    /* Add border radius for rounded corners */
+    border-radius: 8px;
+}
+
+/* Styling for each operation section */
+.operation {
+    /* Add margin to separate each operation */
+    margin-bottom: 20px;
+}
+
+/* Styling for input fields of type number */
+input[type="number"] {
+    /* Set width */
+    width: 70px;
+    /* Add padding */
+    padding: 8px;
+    /* Add margin to separate from adjacent elements */
+    margin-right: 5px;
+    /* Add border radius for rounded corners */
+    border-radius: 4px;
+    /* Add border */
+    border: 1px solid #760b0b; /* Dark red border */
+}
+
+/* Styling for buttons */
+button {
+    /* Add padding */
+    padding: 8px 16px;
+    /* Remove border */
+    border: none;
+    /* Set background color */
+    background-color: #007BFF; /* Blue */
+    /* Set text color */
+    color: white;
+    /* Add border radius for rounded corners */
+    border-radius: 4px;
+    /* Change cursor to pointer on hover */
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    /* Darken background color on hover */
+    background-color: #0056b3; /* Darker blue */
+}
+
+/* Styling for spans */
+span {
+    /* Add margin to separate from adjacent elements */
+    margin-left: 5px;
+}

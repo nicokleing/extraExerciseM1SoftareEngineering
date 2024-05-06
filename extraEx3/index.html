@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    
+    <!-- Title of the page -->
+    <title>Simple Bank</title>
+    
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Bank container -->
+    <div class="bank">
+        <!-- Title -->
+        <h1>Simple Bank</h1>
+        
+        <!-- Display balance -->
+        <div class="balance">Balance: $<span id="balance">100</span></div>
+
+        <!-- Deposit Section -->
+        <div>
+            <!-- Input field for deposit amount -->
+            <input type="number" id="depositAmount" min="0">
+            <!-- Button to deposit -->
+            <button onclick="deposit()">Deposit</button>
+        </div>
+
+        <!-- Withdraw Section -->
+        <div>
+            <!-- Input field for withdrawal amount -->
+            <input type="number" id="withdrawAmount" min="0">
+            <!-- Button to withdraw -->
+            <button onclick="withdraw()">Withdraw</button>
+        </div>
+    </div>
+</body>
+</html>
