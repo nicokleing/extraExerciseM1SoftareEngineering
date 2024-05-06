@@ -1,7 +1,7 @@
 /* Body styling */
 body {
     /* Set font family */
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* Center content vertically and horizontally */
     display: flex;
     justify-content: center;
@@ -10,25 +10,36 @@ body {
     height: 100vh;
     /* Remove default margin */
     margin: 0;
-    /* Set background color */
-    background-color: #f4f4f4; /* Light gray */
+    /* Set background color as a gradient */
+    background-image: linear-gradient(to bottom right, #a8edea, #d7fed6); 
 }
 
-/* Bank container styling */
+
+/* Styling for bank container */
 .bank {
     /* Center text */
     text-align: center;
     /* Add box shadow for a subtle elevation effect */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(197, 35, 35, 0.1);
     /* Add padding */
     padding: 20px;
     /* Add border radius for rounded corners */
-    border-radius: 8px;
+    border-radius: 30px;
     /* Set background color */
-    background-color: white; /* White */
+    background-image: linear-gradient(to bottom right, #0d2726, #0fe70b);
 }
 
-/* Balance display styling */
+/* Styling for input rows */
+.input-row {
+    /* Display as flexbox */
+    display: flex;
+    /* Alinear elementos horizontalmente */
+    justify-content: center;
+    /* Add margin bottom for separation */
+    margin-bottom: 20px;
+}
+
+/* Styling for the balance text */
 .balance {
     /* Set font size */
     font-size: 24px;
@@ -50,6 +61,7 @@ input[type="number"] {
     width: 150px;
 }
 
+
 /* Styling for buttons */
 button {
     /* Add padding */
@@ -57,17 +69,23 @@ button {
     /* Remove border */
     border: none;
     /* Set background color */
-    background-color: #007BFF; /* Blue */
+    background-color: #047cfd; /* Blue */
     /* Set text color */
-    color: white;
+    color: rgb(255, 255, 255);
     /* Add border radius for rounded corners */
-    border-radius: 4px;
+    border-radius: 20px;
     /* Change cursor to pointer on hover */
     cursor: pointer;
+    /* Agregar una transición suave para los cambios */
+    transition: background-color 0.3s, color 0.3s;
 }
 
 /* Hover effect for buttons */
 button:hover {
     /* Darken background color on hover */
     background-color: #0056b3; /* Darker blue */
+    /* Lighten text color on hover */
+    color: #f2f2f2; /* Light gray */
 }
+
+

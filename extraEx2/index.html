@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Title of the page -->
-    <title>Simple Calculator</title>
+    <title>The Calculator (Simple)</title>
     
     <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="styles.css">
@@ -18,13 +18,13 @@
     <!-- Calculator container -->
     <div class="calculator">
         <!-- Title -->
-        <h1>Simple Calculator</h1>
+        <h1>The Calculator (Simple)</h1>
 
         <!-- Addition operation -->
         <div class="operation">
             <input type="number" id="add1" onkeyup="checkInputs('add1', 'add2', 'add-btn')">
             <input type="number" id="add2" onkeyup="checkInputs('add1', 'add2', 'add-btn')">
-            <button id="add-btn" onclick="performOperation('add')" disabled>Add</button>
+            <button id="add-btn" onclick="performOperation('add')" disabled> + Add</button>
             <span>=</span>
             <span id="result-add"></span>
         </div>
@@ -33,7 +33,7 @@
         <div class="operation">
             <input type="number" id="sub1" onkeyup="checkInputs('sub1', 'sub2', 'sub-btn')">
             <input type="number" id="sub2" onkeyup="checkInputs('sub1', 'sub2', 'sub-btn')">
-            <button id="sub-btn" onclick="performOperation('sub')" disabled>Subtract</button>
+            <button id="sub-btn" onclick="performOperation('sub')" disabled> - Subtract</button>
             <span>=</span>
             <span id="result-sub"></span>
         </div>
@@ -42,7 +42,7 @@
         <div class="operation">
             <input type="number" id="mul1" onkeyup="checkInputs('mul1', 'mul2', 'mul-btn')">
             <input type="number" id="mul2" onkeyup="checkInputs('mul1', 'mul2', 'mul-btn')">
-            <button id="mul-btn" onclick="performOperation('mul')" disabled>Multiply</button>
+            <button id="mul-btn" onclick="performOperation('mul')" disabled> x Multiply</button>
             <span>=</span>
             <span id="result-mul"></span>
         </div>
@@ -51,7 +51,7 @@
         <div class="operation">
             <input type="number" id="div1" onkeyup="checkInputs('div1', 'div2', 'div-btn')">
             <input type="number" id="div2" onkeyup="checkInputs('div1', 'div2', 'div-btn')">
-            <button id="div-btn" onclick="performOperation('div')" disabled>Divide</button>
+            <button id="div-btn" onclick="performOperation('div')" disabled> / Divide</button>
             <span>=</span>
             <span id="result-div"></span>
         </div>

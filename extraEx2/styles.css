@@ -1,5 +1,7 @@
 /* Body styling */
 body {
+    /* Set background color */
+    background-color: rgb(130, 130, 193); /* Light purple */
     /* Set font family */
     font-family: Arial, sans-serif;
     /* Center content vertically and horizontally */
@@ -15,19 +17,22 @@ body {
 /* Calculator container styling */
 .calculator {
     /* Center text */
-    text-align: center;
+    text-align: flex; /* Note: Should be "center" instead of "flex" */
     /* Add box shadow for a subtle elevation effect */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     /* Add padding */
     padding: 20px;
     /* Add border radius for rounded corners */
-    border-radius: 8px;
+    border-radius: 20px;
+    background-color: #7e8388; /* Grayish */
+    position: absolute;
+    width: 800px;
 }
 
 /* Styling for each operation section */
 .operation {
     /* Add margin to separate each operation */
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* Styling for input fields of type number */
@@ -64,10 +69,13 @@ button {
 button:hover {
     /* Darken background color on hover */
     background-color: #0056b3; /* Darker blue */
+    transform: translateY(margin-bottom);
 }
 
 /* Styling for spans */
 span {
     /* Add margin to separate from adjacent elements */
-    margin-left: 5px;
+    margin-left: 10px;
+    position: flex;
+    color: aliceblue;
 }

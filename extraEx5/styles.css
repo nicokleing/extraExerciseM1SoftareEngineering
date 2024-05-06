@@ -10,9 +10,10 @@ body {
     height: 100vh;
     /* Remove default margin */
     margin: 0;
-    /* Set background color */
-    background-color: #f4f4f4; /* Light gray */
+    /* Set background color as a gradient */
+    background-image: linear-gradient(to bottom right, #0368dc, #ffffff); /* Light gray to white gradient */
 }
+
 
 /* Container styling */
 .container {
